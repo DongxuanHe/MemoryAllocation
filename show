@@ -1,0 +1,174 @@
+[33mcommit 594deff1c4d07ed7acc88848bba0ab5b460bc80b[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;33mtag: final[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Dongxuan He <he711@data.cs.purdue.edu>
+Date:   Tue Jul 1 11:26:11 2025 -0400
+
+    final done
+
+[1mdiff --git a/.local.git.out b/.local.git.out[m
+[1mindex bdbc2ee..1431fb9 100644[m
+[1m--- a/.local.git.out[m
+[1m+++ b/.local.git.out[m
+[36m@@ -9387,3 +9387,17 @@[m [mAfter doing this, you may fix the identity used for this commit with:[m
+  delete mode 100755 tests/test_very_large[m
+ M	.local.git.out[m
+ Your branch is up to date with 'origin/master'.[m
+[32m+[m[32m[master ef0c53b] Commit[m
+[32m+[m[32m Committer: Dongxuan He <he711@data.cs.purdue.edu>[m
+[32m+[m[32mYour name and email address were configured automatically based[m
+[32m+[m[32mon your username and hostname. Please check that they are accurate.[m
+[32m+[m[32mYou can suppress this message by setting them explicitly:[m
+[32m+[m
+[32m+[m[32m    git config --global user.name "Your Name"[m
+[32m+[m[32m    git config --global user.email you@example.com[m
+[32m+[m
+[32m+[m[32mAfter doing this, you may fix the identity used for this commit with:[m
+[32m+[m
+[32m+[m[32m    git commit --amend --reset-author[m
+[32m+[m
+[32m+[m[32m 1 file changed, 50 insertions(+)[m
+[1mdiff --git a/actual.txt b/actual.txt[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e69de29[m
+[1mdiff --git a/examples/composite_ex b/examples/composite_ex[m
+[1mnew file mode 100755[m
+[1mindex 0000000..1ed997c[m
+Binary files /dev/null and b/examples/composite_ex differ
+[1mdiff --git a/examples/constructor_ex b/examples/constructor_ex[m
+[1mnew file mode 100755[m
+[1mindex 0000000..83b2d9c[m
+Binary files /dev/null and b/examples/constructor_ex differ
+[1mdiff --git a/expect.txt b/expect.txt[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e69de29[m
+[1mdiff --git a/tests/test_all_lists b/tests/test_all_lists[m
+[1mnew file mode 100755[m
+[1mindex 0000000..b5d5060[m
+Binary files /dev/null and b/tests/test_all_lists differ
+[1mdiff --git a/tests/test_coalesce_chunk_coalesce b/tests/test_coalesce_chunk_coalesce[m
+[1mnew file mode 100755[m
+[1mindex 0000000..8da855c[m
+Binary files /dev/null and b/tests/test_coalesce_chunk_coalesce differ
+[1mdiff --git a/tests/test_coalesce_chunk_insert b/tests/test_coalesce_chunk_insert[m
+[1mnew file mode 100755[m
+[1mindex 0000000..78bd143[m
+Binary files /dev/null and b/tests/test_coalesce_chunk_insert differ
+[1mdiff --git a/tests/test_corrupted_canary b/tests/test_corrupted_canary[m
+[1mnew file mode 100755[m
+[1mindex 0000000..c7700ea[m
+Binary files /dev/null and b/tests/test_corrupted_canary differ
+[1mdiff --git a/tests/test_double_free b/tests/test_double_free[m
+[1mnew file mode 100755[m
+[1mindex 0000000..c3c074c[m
+Binary files /dev/null and b/tests/test_double_free differ
+[1mdiff --git a/tests/test_exact b/tests/test_exact[m
+[1mnew file mode 100755[m
+[1mindex 0000000..b6aab71[m
+Binary files /dev/null and b/tests/test_exact differ
+[1mdiff --git a/tests/test_free_both b/tests/test_free_both[m
+[1mnew file mode 100755[m
+[1mindex 0000000..3241747[m
+Binary files /dev/null and b/tests/test_free_both differ
+[1mdiff --git a/tests/test_free_even b/tests/test_free_even[m
+[1mnew file mode 100755[m
+[1mindex 0000000..98d18eb[m
+Binary files /dev/null and b/tests/test_free_even differ
+[1mdiff --git a/tests/test_free_insert b/tests/test_free_insert[m
+[1mnew file mode 100755[m
+[1mindex 0000000..a1d3485[m
+Binary files /dev/null and b/tests/test_free_insert differ
+[1mdiff --git a/tests/test_free_left b/tests/test_free_left[m
+[1mnew file mode 100755[m
+[1mindex 0000000..d9040b8[m
+Binary files /dev/null and b/tests/test_free_left differ
+[1mdiff --git a/tests/test_free_null b/tests/test_free_null[m
+[1mnew file mode 100755[m
+[1mindex 0000000..e9e50c1[m
+Binary files /dev/null and b/tests/test_free_null differ
+[1mdiff --git a/tests/test_free_odd b/tests/test_free_odd[m
+[1mnew file mode 100755[m
+[1mindex 0000000..27d4f47[m
+Binary files /dev/null and b/tests/test_free_odd differ
+[1mdiff --git a/tests/test_free_right b/tests/test_free_right[m
+[1mnew file mode 100755[m
+[1mindex 0000000..e9afa56[m
+Binary files /dev/null and b/tests/test_free_right differ
+[1mdiff --git a/tests/test_insert_chunk b/tests/test_insert_chunk[m
+[1mnew file mode 100755[m
+[1mindex 0000000..b522262[m
+Binary files /dev/null and b/tests/test_insert_chunk differ
+[1mdiff --git a/tests/test_large b/tests/test_large[m
+[1mnew file mode 100755[m
+[1mindex 0000000..cda318d[m
+Binary files /dev/null and b/tests/test_large differ
+[1mdiff --git a/tests/test_locks b/tests/test_locks[m
+[1mnew file mode 100755[m
+[1mindex 0000000..2e23743[m
+Binary files /dev/null and b/tests/test_locks differ
+[1mdiff --git a/tests/test_malloc_large b/tests/test_malloc_large[m
+[1mnew file mode 100755[m
+[1mindex 0000000..50a9659[m
+Binary files /dev/null and b/tests/test_malloc_large differ
+[1mdiff --git a/tests/test_malloc_too_large b/tests/test_malloc_too_large[m
+[1mnew file mode 100755[m
+[1mindex 0000000..c38fe96[m
+Binary files /dev/null and b/tests/test_malloc_too_large differ
+[1mdiff --git a/tests/test_malloc_zero b/tests/test_malloc_zero[m
+[1mnew file mode 100755[m
+[1mindex 0000000..cb36546[m
+Binary files /dev/null and b/tests/test_malloc_zero differ
+[1mdiff --git a/tests/test_multi_malloc b/tests/test_multi_malloc[m
+[1mnew file mode 100755[m
+[1mindex 0000000..fa2e1ac[m
+Binary files /dev/null and b/tests/test_multi_malloc differ
+[1mdiff --git a/tests/test_out_of_ram b/tests/test_out_of_ram[m
+[1mnew file mode 100755[m
+[1mindex 0000000..83f2a3c[m
+Binary files /dev/null and b/tests/test_out_of_ram differ
+[1mdiff --git a/tests/test_random b/tests/test_random[m
+[1mnew file mode 100755[m
+[1mindex 0000000..6fd4366[m
+Binary files /dev/null and b/tests/test_random differ
+[1mdiff --git a/tests/test_random_sizes b/tests/test_random_sizes[m
+[1mnew file mode 100755[m
+[1mindex 0000000..3388555[m
+Binary files /dev/null and b/tests/test_random_sizes differ
+[1mdiff --git a/tests/test_simple0 b/tests/test_simple0[m
+[1mnew file mode 100755[m
+[1mindex 0000000..8808a64[m
+Binary files /dev/null and b/tests/test_simple0 differ
+[1mdiff --git a/tests/test_simple1 b/tests/test_simple1[m
+[1mnew file mode 100755[m
+[1mindex 0000000..00b3ae8[m
+Binary files /dev/null and b/tests/test_simple1 differ
+[1mdiff --git a/tests/test_simple2 b/tests/test_simple2[m
+[1mnew file mode 100755[m
+[1mindex 0000000..cc65423[m
+Binary files /dev/null and b/tests/test_simple2 differ
+[1mdiff --git a/tests/test_simple3 b/tests/test_simple3[m
+[1mnew file mode 100755[m
+[1mindex 0000000..5b2bdd1[m
+Binary files /dev/null and b/tests/test_simple3 differ
+[1mdiff --git a/tests/test_simple4 b/tests/test_simple4[m
+[1mnew file mode 100755[m
+[1mindex 0000000..b276e17[m
+Binary files /dev/null and b/tests/test_simple4 differ
+[1mdiff --git a/tests/test_simple5 b/tests/test_simple5[m
+[1mnew file mode 100755[m
+[1mindex 0000000..766c0e4[m
+Binary files /dev/null and b/tests/test_simple5 differ
+[1mdiff --git a/tests/test_simple6 b/tests/test_simple6[m
+[1mnew file mode 100755[m
+[1mindex 0000000..96d441a[m
+Binary files /dev/null and b/tests/test_simple6 differ
+[1mdiff --git a/tests/test_split b/tests/test_split[m
+[1mnew file mode 100755[m
+[1mindex 0000000..0be3b42[m
+Binary files /dev/null and b/tests/test_split differ
+[1mdiff --git a/tests/test_verify b/tests/test_verify[m
+[1mnew file mode 100755[m
+[1mindex 0000000..f958460[m
+Binary files /dev/null and b/tests/test_verify differ
+[1mdiff --git a/tests/test_very_large b/tests/test_very_large[m
+[1mnew file mode 100755[m
+[1mindex 0000000..a7fafc9[m
+Binary files /dev/null and b/tests/test_very_large differ
