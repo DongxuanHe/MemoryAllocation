@@ -210,7 +210,7 @@ static inline header * allocate_object(size_t raw_size) {
   }
 
   int possible = 0;
-  do {/////////////////////////////////////////////////////////////////////////////////////////////////
+  do {
     if (lastList == 0) {
       sentinel = &(freelistSentinels[N_LISTS - 1]);
       current = sentinel->next;
